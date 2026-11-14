@@ -1,0 +1,67 @@
+Configs: {
+	CursorHighlighterConfig: {
+		DisplayName: Einstellungen
+		// LeftClickColor.Tooltip: ""
+		// RightClickColor.Tooltip: ""
+		// Switch.Tooltip: ""
+		// Radius.Tooltip: ""
+		// Transparency.Tooltip: ""
+		// Toggle.Tooltip: ""
+		// RenderMode.Tooltip: ""
+		// FadeDuration.Tooltip: ""
+	}
+
+	CircleRenderMode: {
+		// Tooltip: ""
+		// Normal.Tooltip: ""
+		// Invert.Tooltip: ""
+		// ColoredInvert.Tooltip: ""
+	}
+}
+
+Headers: {
+	General: Allgemein
+	Color: Farbe
+}
+
+Color: {
+	LMBColor: LMT um die Highlight Farbe zu ändern
+	RMBColor: RMT um die Highlight Farbe zu ändern
+}
+
+General: {
+	Toggle: Sichtbarkeit des Highlights umschalten
+
+	Pixelation: {
+		Label: Pixelation
+		Tooltip: Lässt deine Highlights erscheinen, passend zum Spielstil
+	}
+
+	Smoothing: {
+		Label: Glättung der Kanten
+		Tooltip: Glättet die Kanten der Highlights
+	}
+
+	Radius: Highlight Radius (10 - 60)
+	Transparency: Highlight Transparenz (0.1 - 1)
+	RenderMode: Anzeigemodus
+
+	FadeOut: {
+		Label: Ausblendung
+		Tooltip: Beim loslassen der Maustaste, wird das Highlight glatt ausgeblendet
+		FadeDuration: Ausblenddauer (0.1 - 1)
+	}
+}
+
+Switch: {
+	Negative: {
+		Normal: Normal
+		Invert: Negativ
+		ColoredInvert: Farbnegativ
+	}
+}
+
+Keybinds: {
+	CycleRenderMode.DisplayName: Anzeigemodus umschalten
+	ToggleHighlight.DisplayName: Highlights umschalten
+}

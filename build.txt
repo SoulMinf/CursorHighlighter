@@ -1,0 +1,10 @@
+displayName = Cursor Highlighter
+author = SoulMinf
+version = 1.0
+
+side = Client
+hideCode = false
+
+homepage = https://discord.gg/BafguHjhty
+
+buildIgnore = .vs\*, *.csproj, bin\*, obj\*, icon_workshop.png

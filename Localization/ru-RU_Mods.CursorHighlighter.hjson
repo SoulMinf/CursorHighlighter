@@ -1,0 +1,67 @@
+Configs: {
+	CursorHighlighterConfig: {
+		DisplayName: Настройки
+		// LeftClickColor.Tooltip: ""
+		// RightClickColor.Tooltip: ""
+		// Switch.Tooltip: ""
+		// Radius.Tooltip: ""
+		// Transparency.Tooltip: ""
+		// Toggle.Tooltip: ""
+		// RenderMode.Tooltip: ""
+		// FadeDuration.Tooltip: ""
+	}
+
+	CircleRenderMode: {
+		// Tooltip: ""
+		// Normal.Tooltip: ""
+		// Invert.Tooltip: ""
+		// ColoredInvert.Tooltip: ""
+	}
+}
+
+Headers: {
+	General: Общее
+	Color: Цвет
+}
+
+Color: {
+	LMBColor: Цвет подсветки на ЛКМ
+	RMBColor: Цвет подсветки на ПКМ
+}
+
+General: {
+	Toggle: Переключить видимость подсветки
+
+	Pixelation: {
+		Label: Пикселизация
+		Tooltip: Делает вашу подсветку пиксельной под стиль игры
+	}
+
+	Smoothing: {
+		Label: Сглаживание краёв
+		Tooltip: Сглаживает края подсветки
+	}
+
+	Radius: Радиус подсветки (10 - 60)
+	Transparency: Прозрачность подсветки (0.1 - 1)
+	RenderMode: Режим отображения
+
+	FadeOut: {
+		Label: Плавное исчезновение
+		Tooltip: Когда вы отпускаете клавиши мыши, подсветка плавно исчезают
+		FadeDuration: Длительность затухания (0.1 - 1)
+	}
+}
+
+Switch: {
+	Negative: {
+		Normal: Обычный
+		Invert: Негатив
+		ColoredInvert: Цветной негатив
+	}
+}
+
+Keybinds: {
+	CycleRenderMode.DisplayName: Переключить режимы отображения
+	ToggleHighlight.DisplayName: Вкл./Выкл. подсветку
+}
