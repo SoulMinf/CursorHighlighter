@@ -1,1 +1,33 @@
-This description will show up on the steam page, check out https://steamcommunity.com/comment/Guide/formattinghelp.
+[b]Adds the highlight to your cursor that reacts to clicks and can be customized![/b]
+
+[h2]Links[/h2]
+[img]https://i.imgur.com/jdunrUl.png[/img]
+
+[img]https://i.imgur.com/mxDesnm.png[/img] ‎ ‎[b][url=https://discord.gg/BafguHjhty]Discord Server[/url][/b]
+[img]https://i.imgur.com/m8YVpSp.png[/img] ‎ ‎[b][url=https://github.com/SoulMinf/CursorHighlighter]Source Code[/url][/b]
+[img]https://i.imgur.com/1OXhSeG.png[/img] ‎ ‎[b][url=https://steamcommunity.com/id/soul_minefine/myworkshopfiles/?appid=1281930]Other Projects[/url][/b]
+[img]https://i.imgur.com/jXZYlFj.png[/img] ‎ ‎[b][url=https://x.com/soul_minefine]Twitter[/url][/b]
+[img]https://i.imgur.com/dIpCCSr.png[/img] ‎ [b][url=https://forums.terraria.org/index.php?members/soulminf.158991/]Terraria Forum Page[/url][/b]
+
+[h2]Key features[/h2]
+[img]https://i.imgur.com/jdunrUl.png[/img]
+[b][list][*] You can change the highlight color for each button individually.
+
+[*] Change the highlight rendering modes to negative.
+
+[*] Adjust the size and transparency, apply pixelation and edge smoothing. You can also apply a smooth fade.
+
+[*] It works on top of everything, even in the main menu.
+
+[*] Turn it off when you need to, or switch rendering modes with a single key!
+
+[*] The mod also fully supports any mods for custom cursors and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3119712528]High FPS Support[/url][/list][/b]
+
+[h2]Special Thanks[/h2]
+[img]https://i.imgur.com/jdunrUl.png[/img]
+[list][*][url=https://re-logic.com/]Re-Logic[/url]
+[*][url=https://www.tmodloader.net/]tModLoader[/url]
+
+[*] [url=https://steamcommunity.com/profiles/76561198845123208]Str4nger[/url] - German translation
+
+[*] [b]YOU[/b] - for using my mod :>[/list]
