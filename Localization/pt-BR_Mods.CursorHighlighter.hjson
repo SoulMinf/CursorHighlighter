@@ -1,0 +1,74 @@
+Configs: {
+	CursorHighlighterConfig: {
+		DisplayName: Configurações
+		LeftClickColor.Tooltip: ""
+		RightClickColor.Tooltip: ""
+		Switch.Tooltip: ""
+		Radius.Tooltip: ""
+		Transparency.Tooltip: ""
+		Toggle.Tooltip: ""
+		RenderMode.Tooltip: ""
+		FadeDuration.Tooltip: ""
+	}
+
+	CircleRenderMode: {
+		Tooltip: ""
+		Normal.Tooltip: ""
+		Invert.Tooltip: ""
+		ColoredInvert.Tooltip: ""
+	}
+
+	HighlightRenderMode: {
+		Tooltip: ""
+		Normal.Tooltip: ""
+		Invert.Tooltip: ""
+		ColoredInvert.Tooltip: ""
+	}
+}
+
+Headers: {
+	General: Gerais
+	Color: Cores
+}
+
+Color: {
+	LMBColor: Cor do destaque do botão esquerdo
+	RMBColor: Cor do destaque do botão direito
+}
+
+General: {
+	Toggle: Alternar visibilidade dos destaques
+
+	Pixelation: {
+		Label: Pixelização
+		Tooltip: Deixa os seus destaques pixelados para combinar com o estilo do jogo
+	}
+
+	Smoothing: {
+		Label: Suavização de bordas
+		Tooltip: Suaviza as bordas dos destaques
+	}
+
+	Radius: Raio do destaque (10 - 60)
+	Transparency: Transparência do destaque (0.1 - 1)
+	RenderMode: Modo de renderização
+
+	FadeOut: {
+		Label: Desvanecimento
+		Tooltip: Quando você solta os botões do mouse, os destaques desaparecem suavemente
+		FadeDuration: Duração do desvanecimento (0.1 - 1)
+	}
+}
+
+Switch: {
+	Negative: {
+		Normal: Normal
+		Invert: Invertido
+		ColoredInvert: Coloração invertida
+	}
+}
+
+Keybinds: {
+	CycleRenderMode.DisplayName: Alternar modos de renderização
+	ToggleHighlight.DisplayName: Ativação/desativação dos destaques
+}

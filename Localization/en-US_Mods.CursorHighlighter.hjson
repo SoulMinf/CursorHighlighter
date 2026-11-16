@@ -17,6 +17,13 @@ Configs: {
 		Invert.Tooltip: ""
 		ColoredInvert.Tooltip: ""
 	}
+
+	HighlightRenderMode: {
+		Tooltip: ""
+		Normal.Tooltip: ""
+		Invert.Tooltip: ""
+		ColoredInvert.Tooltip: ""
+	}
 }
 
 Headers: {

@@ -210,7 +210,7 @@ namespace CursorHighlighter
 
                 case HighlightRenderMode.ColoredInvert:
                     {
-                        float wl = leftI / (leftI + rightI);
+                        float wl = leftI / (leftI + rightI + 0.0001f);
                         Color baseColor = Color.Lerp(cfg.RightClickColor, cfg.LeftClickColor, wl);
                         Color drawColor = Premultiply(baseColor, cfg.Transparency * maxI);
 
@@ -221,15 +221,16 @@ namespace CursorHighlighter
                     }
 
                 default: // Normal
-                    Main.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.PointClamp, DepthStencilState.None, RasterizerState.CullNone, null, Matrix.Identity);
+                    {
+                        float wl = leftI / (leftI + rightI + 0.0001f);
+                        Color baseColor = Color.Lerp(cfg.RightClickColor, cfg.LeftClickColor, wl);
+                        Color drawColor = Premultiply(baseColor, cfg.Transparency) * maxI;
 
-                    if (leftI > 0f)
-                        Main.spriteBatch.Draw(_tex, topLeft, null, _leftColor * leftI, 0f, Vector2.Zero, block, SpriteEffects.None, 0f);
-                    if (rightI > 0f)
-                        Main.spriteBatch.Draw(_tex, topLeft, null, _rightColor * rightI, 0f, Vector2.Zero, block, SpriteEffects.None, 0f);
-
-                    Main.spriteBatch.End();
-                    break;
+                        Main.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.PointClamp, DepthStencilState.None, RasterizerState.CullNone, null, Matrix.Identity);
+                        Main.spriteBatch.Draw(_tex, topLeft, null, drawColor, 0f, Vector2.Zero, block, SpriteEffects.None, 0f);
+                        Main.spriteBatch.End();
+                        break;
+                    }
             }
         }
 
