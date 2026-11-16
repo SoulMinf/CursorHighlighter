@@ -1,5 +1,15 @@
 [b]Adds the highlight to your cursor that reacts to clicks and can be customized![/b]
 
+[img=https://i.imgur.com/ZKcYsje.gif][/img]
+
+[h2]Where does this apply?[/h2]
+[img]https://i.imgur.com/jdunrUl.png[/img]
+[b][list]
+[*] For recording tutorials.
+[*] During battles with enemies.
+[*] When sending an bug report.
+[*] Just to test your device :p[/list][/b]
+
 [h2]Links[/h2]
 [img]https://i.imgur.com/jdunrUl.png[/img]
 
@@ -22,6 +32,15 @@
 [*] Turn it off when you need to, or switch rendering modes with a single key!
 
 [*] The mod also fully supports any mods for custom cursors and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3119712528]High FPS Support[/url][/list][/b]
+
+[h2]What's new in the latest update 1.1?[/h2]
+[img]https://i.imgur.com/jdunrUl.png[/img]
+[list][b]New features:[/b]
+[*] Added Brazilian Portuguese translation.
+
+[b]Fixes:[/b]
+[*] Improved stability.
+[*] Fixed highlight blending in Normal mode.[/list]
 
 [h2]Special Thanks[/h2]
 [img]https://i.imgur.com/jdunrUl.png[/img]
